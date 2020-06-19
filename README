@@ -1,0 +1,19 @@
+
+
+tsc --watch or tsc -w (for single typescript file)
+
+
+Compiling multiple typescript files
+tsc --init
+tsc
+
+to exclude some files
+1.  open tscconfig.json
+2. before the last closing curling brace add exclude
+    as "exclude":[
+        "something.ts",
+        "something2.ts",
+        "*.dev.ts",
+        "node_modules"// this is defalut
+    ]
+3. 

@@ -10,13 +10,13 @@ const n3 = "5";
 const n4 = 2.6;
 console.log(add(n3, n4));
 
-function add1(n1: number, n2: number) {
+function add10(n1: number, n2: number) {
   return n1 + n2;
 }
 
 const n5 = "5";
 const n6 = 2.6;
-// console.log(add1(n5, n6));
+// console.log(add10(n5, n6));
 
 function add2(n1, n2) {
   if (typeof n1 !== "number") throw new Error("n1 is not a number");
